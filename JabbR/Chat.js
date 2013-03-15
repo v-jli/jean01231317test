@@ -399,7 +399,7 @@
         ui.addMessage('You are no longer an owner of ' + room, 'notification', this.state.activeRoom);
     };
 
-    // Called when your gravatar has been changed
+    // Called when your gravatar has been changed1
     chat.client.gravatarChanged = function () {
         ui.addMessage('Your gravatar has been set', 'notification', this.state.activeRoom);
     };
