@@ -52,7 +52,7 @@
 
     function populateRoom(room) {
         var d = $.Deferred();
-        // Populate the list of users rooms and messages1 
+        // Populate the list of users rooms and messages11 
         chat.server.getRoomInfo(room)
                 .done(function (roomInfo) {
                     $.each(roomInfo.Users, function () {
